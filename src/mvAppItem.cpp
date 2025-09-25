@@ -2796,10 +2796,10 @@ DearPyGui::GetEntityParser(mvAppItemType type)
         args.push_back({ mvPyDataType::IntList, "max_size", mvArgType::KEYWORD_ARG, "[30000, 30000]", "Maximum window size." });
         args.push_back({ mvPyDataType::Bool, "menubar", mvArgType::KEYWORD_ARG, "False", "Shows or hides the menubar." });
         args.push_back({ mvPyDataType::Bool, "collapsed", mvArgType::KEYWORD_ARG, "False", "Collapse the window." });
-        args.push_back({ mvPyDataType::Bool, "autosize", mvArgType::KEYWORD_ARG, "False", "Autosized the window to fit it's items." });
+        args.push_back({ mvPyDataType::Bool, "autosize", mvArgType::KEYWORD_ARG, "False", "Autosize the window to fit its items." });
         args.push_back({ mvPyDataType::Bool, "no_resize", mvArgType::KEYWORD_ARG, "False", "Allows for the window size to be changed or fixed." });
         args.push_back({ mvPyDataType::Bool, "unsaved_document", mvArgType::KEYWORD_ARG, "False", "Show a special marker if the document is not saved." });
-        args.push_back({ mvPyDataType::Bool, "no_title_bar", mvArgType::KEYWORD_ARG, "False", "Title name for the title bar of the window." });
+        args.push_back({ mvPyDataType::Bool, "no_title_bar", mvArgType::KEYWORD_ARG, "False", "Allows hiding the title bar." });
         args.push_back({ mvPyDataType::Bool, "no_move", mvArgType::KEYWORD_ARG, "False", "Allows for the window's position to be changed or fixed." });
         args.push_back({ mvPyDataType::Bool, "no_scrollbar", mvArgType::KEYWORD_ARG, "False", " Disable scrollbars. (window can still scroll with mouse or programmatically)" });
         args.push_back({ mvPyDataType::Bool, "no_collapse", mvArgType::KEYWORD_ARG, "False", "Disable user collapsing window by double-clicking on it." });
